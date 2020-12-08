@@ -34,9 +34,6 @@ for i in D_input:
     else:
         print("Error: Unrecognized nucleotide.")
 
-print(C_input[:3])
-print(C_input)
-print(C)
 print("\n\n\n Forward Primer (from NdeI on): " + A + C)
 print("\n\n Reverse Primer (up to EcoRI): " + B + D + "\n\n\n")
 
